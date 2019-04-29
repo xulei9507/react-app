@@ -1,0 +1,17 @@
+MultipleErrors: /Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/walk.es.js:423:1: Unexpected reserved word export
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/walk.es.js:423:8: Semi-colon expected
+
+MultipleErrors: /Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn_loose.es.js:1:1: Unexpected reserved word import
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn_loose.es.js:1:8: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn_loose.es.js:1:146: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn_loose.es.js:1424:1: Unexpected reserved word export
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn_loose.es.js:1424:8: Semi-colon expected
+
+MultipleErrors: /Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:1: Unexpected reserved word export
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:8: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:209: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:212: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:233: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:236: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:270: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/acorn@5.7.3/dist/acorn.es.js:5314:273: Semi-colon expected

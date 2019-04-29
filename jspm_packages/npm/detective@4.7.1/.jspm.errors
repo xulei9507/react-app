@@ -1,0 +1,12 @@
+MultipleErrors: /Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:1: Unexpected reserved word export
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:8: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:8: Unexpected reserved word default
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:16: Semi-colon expected
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:25: Unexpected token (
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:3:26: Unexpected token )
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:9: Unexpected token b
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:11: Unexpected token =
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:13: Unexpected token require
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:20: Unexpected token (
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:21: Unexpected token 'b'
+/Users/xulei/.jspm/packages/npm/detective@4.7.1/test/files/es6-module.js:4:24: Unexpected token )

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ui container" style="padding:30px">
+        <!-- <button class="ui green button">hello</button> -->
+        <div id="app"></div>
+    </div>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('app/main')
+    </script>
+</body>
+<!--  
+React
+
+快速构建
+
+默认安装npm和nodejs
+搭建一个全局的脚手架 npm install -g create-react-app
+创建项目	create-react-app my-demo  
+进入目录	cd my-demo                      
+启动npm start
+
+
+
+
+react安装
+
+通过jspm进行安装
+全局安装jspm    npm install jspm -g
+jspm install react@0.14.0-rc1
+jspm install react-dom@0.14.0-rc1
+jspm install semantic-ui    非必须安装
+jspm install css    导入semantic-ui需要使用的插件
+
+安装 BrowserSync    npm install -g browser-sync
+browser-sync start --server --no-notify --files 'index.html, app/**/*.js'   监视文件变化
+atom ./
+
+
+
+
+状态
+使用ajax   jspm install jquery
+
+
+React路由
+安装React Router    jspm install react-router@1.0.0-rc1
+
+
+
+
+
+React Native基础知识
+
+安装React Native-OS X
+    brew update && brew doctor
+    xcode-select --install
+
+    brew install watchman
+    brew install flow
+    npm install react-native-cli -g
+
+配置Android开发环境
+    brew cask install java
+    java -version
+    安装android studio
+
+    brew install android-sdk
+        brew info android查看文件安装目录
+        cd /usr/local/Caskroom/android-sdk/4333796
+        ls
+        cd extras
+        cd intel
+        ls
+        open ./
+        安装IntelHAXM.dmg文件
+        android avd
+
+    vi ~/.bash_profile
+    添加代码 export ANDROID_HOME=/usr/local/opt/android-sdk
+    输入q!
+
+
+
+    http://www.androiddevtools.cn/  下载android-sdk_r24.4.macosx.zip
+    进入到android-sdk-macoxs下的tools文件夹，双击Android文件。即可启动Android SDK Manager。
+        cd Downloads/android/android-sdk-macosx/tools
+        ./android
+        Android SDK Manager -> Preferences...
+        http proxy server这里填写： mirrors.neusoft.edu.cn 
+        端口填写80，然后把Force https:// 前的勾勾上
+        Tools->Manage Add-on Site
+        把下面这堆网址：
+            http://mirrors.neusoft.edu.cn/android/repository/addon-6.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/addon.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/extras/intel/addon.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/sys-img/android-tv/sys-img.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/sys-img/android-wear/sys-img.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/sys-img/android/sys-img.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/sys-img/google_apis/sys-img.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/sys-img/x86/addon-x86.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/addons_list-2.xml 
+            http://mirrors.neusoft.edu.cn/android/repository/repository-10.xml
+            全手动New加进去
+
+
+        勾选android6.0,Extras>Android Support Repository,Android Auto Desktop Head Unit emulator,intel x86 Emulator Accelerator
+
+初始化项目
+react-native init MovieTalk
+Enable Live Reload实时刷新
+cmd+r刷新显示
+cmd+d打开开发菜单
+hardware>shake gesture
+react-native run-ios
+
+-->
+
+</html>
